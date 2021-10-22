@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>login</title>
+</head>
+<body>
+    <div id="outer_wrap">
+        <div id="wrap">
+
+            <!--header부분은 시간 남으면 include 시키기 -->
+
+    <header>
+        <table>
+    
+        <tr>
+            <td>	
+            <div id="logo">
+                <img src="images/logo.png" 
+                width="250" height="150">
+            </div>
+            </td>
+            <td>	
+            <td></td>
+            
+            <td>
+            <div id="canon">
+                <img src="images/canon.png" width="200" height="45">
+            </div>
+            </td>
+        </tr>
+        <tr>
+            
+            <td width="700"></td>
+            <td width="420"></td>
+            
+            
+            <td width="480">
+    
+            <div id="head_link">
+                <ul>
+                    <li><a href="login.html"> Login </a></li>
+                    <li><a href="#"> Join </a></li>
+                    <li><a href="#"> Help </a></li>
+                    <li class="no_line"><a href="#"> English</a></li>
+                </ul>
+            </div>
+            </td>
+    
+        
+            <td>
+            <div id="search">
+                <form>
+                    <input type="text" name="input" class="main_input">
+                    <input type="button" name="search" value="Search" class="btn1">
+                </form>
+            </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <nav id="n"> 
+                <ul>
+                    <li><a href="index.html"> home </a></li>
+                    <li><a href="card.html"> card   </a></li>
+                    <li><a href="architecture.html">  architecture </a></li>
+                    <li><a href="animals.html"> Animals  </a></li>
+                    
+                    
+                        
+                </ul>
+            </nav>
+            </td>
+            
+    
+        </tr>
+        
+        </table>
+    
+        <hr>
+    </header>
+
+    <!--로그인 창-->
+
+    <section class="login-form">
+        <div class="login_container">
+        <div style="padding:20px;"></div>
+        <div class="form_container">
+            <form name="login_form" action="#.html" method="get">
+
+                <!--로그인 타이틀-->
+                <div class="form_title_div">
+                    <p class="form_title_p">Login</p>
+                </div>
+                <!--아이디-->
+                <div class="int-area">
+                    <div>
+                        <label class= "form_item_name" for="id">ID</label> 
+                    </div>
+                    <div>
+                        <input type="text" name="userid" id="id" placehorder="아이디를 입력하세요"
+                   class="form_input" required />
+                    </div>
+                   <div class="form_text_alert_padding">
+                    <div id="alert_userid" class="form_text_alert"></div>
+                   </div>
+                </div>
+    
+               <!--비밀번호-->
+    
+                <div class="int-area">
+                    <div>
+                        <label class= "form_item_name" for="pw">Password</label>
+                    </div>
+                    <div>
+                        <input type="password" name="userpw" id="pw" placehorder="비밀번호를 입력하세요"
+                    class="form_input" required/>
+                    </div>
+                    <div class="form_text_alert_padding">
+                        <div id="alert_password" class="form_text_alert"></div>
+                    </div>
+                    
+                </div>               
+                <div style="height: 10px;"></div>
+    
+                <!--버튼 -->
+                <div class="btn-area">
+                    <button type="button" class="form_submit_button" onclick="login(this.form)">Submit</button>
+                    
+                    
+                     
+                    <!--check(this.~) : js에 있는 함수 form을 불러들인다 는 의미 -->
+                </div>
+    
+                <!--비밀번호 분실-->
+                <div class="caption">
+                    <a href="#">Forgot Password?</a>
+                </div>
+    
+            </form>
+        </div>
+        
+        <script src="test.js"></script>
+        </div>
+        
+    </section>
+    
+
+    <!--푸터 -->
+     <footer >
+
+        <hr>
+        <ul>
+            <li><a href="#"> 회사소개 </a></li>
+            <li><a href="#"> 이용약관 </a></li>
+            <li><a href="#"> 개인정보취급방침 </a></li>
+            <li><a href="#"> 광고/이벤트 문의 </a></li>
+            <li><a href="#"> 고객만족센터 </a></li>
+            <li class="no_line"><a href="#"> 찾아오시는 길 </a></li>
+        </ul>
+    
+    <div class="clear"></div>
+    
+    
+    <div id="foot_note">
+        대표자 : 이지홍 <br> 사업자등록번호 : 227-12-91152
+         <br>통신판매업신고 : 제2019-경기구리-0405호<br> 제휴문의 : zhffktkdlekghksxk@daum.net
+         <br>Copyright © ohmeeting All Rights Reserved.
+    </div>
+    <div id="foot_note">
+        상담문의 <br>
+    010-4578-1981 <br>	
+    월~토 PM 13:00~19:00 / 주말-공휴일 11:00~PM 3:00 
+    </div>
+    
+    <div id="foot_note">
+          1:1 빠른상담 
+    </div>
+    </footer>
+
+</body>
+</html>

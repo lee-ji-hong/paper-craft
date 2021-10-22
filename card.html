@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> paper craft park</title>
+	<script type="text/javascript" src="pink.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+	<div id="outer_wrap">
+	<div id="wrap">
+<header>
+	<table>
+	<tr>
+		<td>	
+		<div id="logo">
+			<img src="images/logo.png" width="200" height="85">
+		</div>
+		</td>
+		<td>	
+		<td></td>
+		
+		<td>
+		<div id="canon">
+			<img src="images/canon.png" width="200" height="45">
+		</div>
+		</td>
+	</tr>
+	<tr>
+		
+		<td width="700"></td>
+		<td width="420"></td>
+		
+		
+		<td width="480">
+
+		<div id="head_link">
+			<ul>
+				<li><a href="#"> Login </a></li>
+				<li><a href="#"> Join </a></li>
+				<li><a href="#"> Help </a></li>
+				<li class="no_line"><a href="#"> English</a></li>
+			</ul>
+		</div>
+		</td>
+
+	
+		<td>
+		<div id="search">
+			<form>
+				<input type="text" name="input" class="main_input">
+				<input type="button" name="search" value="Search" class="btn1">
+			</form>
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<nav id="n"> 
+			<ul>
+				<li><a href="index.html"> home </a></li>
+				<li><a href="card.html"> card   </a></li>
+				<li><a href="architecture.html">  architecture </a></li>
+				<li><a href="animals.html"> Animals  </a></li>
+				
+				
+					
+			</ul>
+		</nav>
+		</td>
+		
+
+	</tr>
+	
+	</table>
+
+	<hr>
+		<p align="center"><b>Card</b></p>
+	<hr>
+
+</header>
+
+<div class="clear">
+
+<section>
+	<!-- 슬라이드쇼 컨테이너 -->
+	<div class="slideshow-container">
+
+	  <!-- 숫자와 캡션이 있는 이미지 -->
+	  <div class="mySlides fade">
+	    <div class="numbertext">1 / 3</div>
+	    <img src="images/make.png" style="width:100%">
+	    
+	  </div>
+
+	  <div class="mySlides fade">
+	    <div class="numbertext">2 / 3</div>
+	    <img src="images/onon.png" style="width:100%">
+	    
+	  </div>
+
+	  <div class="mySlides fade">
+	    <div class="numbertext">3 / 3</div>
+	    <img src="images/space.png" style="width:100%">
+	    
+	  </div>
+
+	  <!-- 다음, 이전 이미지 버튼 -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<br>
+
+	<!-- 현재 이미지를 알려주는 하단의 점 -->
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";  
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	}
+</script>
+
+<table class="tt" align="center">
+	<tr>
+		<td>
+		<div class="N"> 
+			<img src="images/na.png" width="250" height="320">
+			
+			
+		</div>
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/tre.png" width="250" height="320">
+			
+		</div>	
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/si.png" width="250" height="320">
+			
+			
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div class="N"> 
+			<img src="images/to.png" width="250" height="320">
+				
+		</div>
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/su.png" width="250" height="320">
+				
+		</div>	
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/pa.png"width="250" height="320">
+			
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div class="N"> 
+			<img src="images/ma.png" width="250" height="320">
+			
+			
+		</div>
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/sild.png" width="250" height="320">
+			
+		</div>	
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/ye.png" width="250" height="320">
+			
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div class="N"> 
+			<img src="images/bag.png" width="250" height="320">
+			
+			
+		</div>
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/tee.png" width="250" height="320">
+			
+		</div>	
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/ro.png" width="250" height="320">
+				
+			
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div class="N"> 
+			<img src="images/or.png" width="250" height="320">
+			
+			
+		</div>
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/fl.png" width="250" height="320">
+			
+		</div>	
+		</td>
+		<td>
+		<div class="N"> 
+			<img src="images/gg.png"  width="250" height="320">
+						
+		</div>
+		</td>
+	</tr>
+	
+</table>
+	<div>
+		<img src="images/under.png" style="width:100%">
+	</div>
+	<br>
+<table>
+	<tr id="hua">
+			<th>Card</th>
+			<th>Paper Craft</th>
+			<th>Home and Living</th>
+			<th>Scrapbook</th>
+			<th>Art</th>
+			<th>Calendars</th>
+	</tr>
+
+	<tr id="ha">
+		
+			<td>
+				<ul>
+					<li>Pop-up Cards</li>
+					<li>Craft Cards</li>
+					<li>Greeting Cards</li>
+					<li>Mini Cards</li>
+					<li>Envelopes </li>
+					<li>Stationery</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Animals </li>
+					<li>Toys</li>
+					<li>Educational</li>
+					<li>Vehicles</li>
+					<li>Science </li>
+					<li>Architecture</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Hanging Decoration</li>
+					<li>Wall Decorations</li>
+					<li>Ornaments/Accessories</li>
+					<li>Garlands</li>
+					<li>Boxes/Cases </li>
+					<li>Pattern Papers</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Photo Albums</li>
+					<li>Simple Scrap Parts Kits</li>
+					<li>Photo Frames</li>
+					<li>12inch Kits</li>
+					<li>A4 & Letter Kits </li>
+					<li>Parts</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>3D Decoupage </li>
+					<li>Paper Relief</li>
+					<li>Origami</li>
+					<li>Chiyogami</li>
+					<li>3D Paper Mosaic </li>
+					<li>Frame</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li>Craft type </li>
+					<li>Photo  type </li>
+					<li>Triangular </li>
+					<li>Flat type 2018</li>
+					<li>Perpetual calendar </li>
+					<li>Advent calendars</li>
+				</ul>
+			</td>
+	</tr>
+</table>
+</section>
+<footer >
+
+	<hr>
+	<ul>
+		<li><a href="#"> 회사소개 </a></li>
+		<li><a href="#"> 이용약관 </a></li>
+		<li><a href="#"> 개인정보취급방침 </a></li>
+		<li><a href="#"> 광고/이벤트 문의 </a></li>
+		<li><a href="#"> 고객만족센터 </a></li>
+		<li class="no_line"><a href="#"> 찾아오시는 길 </a></li>
+	</ul>
+
+<div class="clear"></div>
+
+
+<div id="foot_note">
+	고객상담 전화주문 : 1577-1111 사업자등록번호 : 106-11-123456 대표이사 : 홍길동 통신판매업 서울 제 00000호 <br> 개인정보관리책임자 : 김철수 분쟁조정기관표시 : 소비자보호원, 전자거래분쟁중재위원회 <br> 이메일주소무단수집거부 help@aaa.com <br> Copyright(c) 2018 SENOP Corp. All right Resrved
+</div>
+
+</footer>
+</body>
+
+</html>
